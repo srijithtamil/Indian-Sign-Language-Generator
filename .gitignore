@@ -1,0 +1,33 @@
+﻿# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables & Secrets
+.env
+*.env
+*.env.local
+
+# Vercel & Deployment
+.vercel/
+*/.vercel/
+dist/
+build/
+
+# Python & AI Cache
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+ENV/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Upstream reference clone (has own .git)
+isl-engine-repo/.git/
+isl-engine-repo/

@@ -1,0 +1,50 @@
+{
+  "translations": [
+    {
+      "id": "demo-1",
+      "source": "camera_gesture",
+      "mode": "text",
+      "translatedText": "HELLO WELCOME TO ISL PORTAL",
+      "gestures": [
+        "H",
+        "E",
+        "L",
+        "L",
+        "O"
+      ],
+      "confidence": 0.94,
+      "timestamp": "2026-10-12T07:03:30.341Z"
+    },
+    {
+      "id": "demo-2",
+      "source": "calculator",
+      "mode": "calculator",
+      "translatedText": "12 + 8 = 20",
+      "gestures": [
+        "1",
+        "2",
+        "+",
+        "8",
+        "="
+      ],
+      "confidence": 0.91,
+      "timestamp": "2026-10-12T06:03:30.343Z"
+    }
+  ],
+  "practiceSessions": [
+    {
+      "id": "quiz-1",
+      "quizType": "alphabet_recognition",
+      "score": 9,
+      "totalQuestions": 10,
+      "accuracy": 90,
+      "timestamp": "2026-10-12T05:03:30.343Z"
+    }
+  ],
+  "settings": {
+    "voiceEnabled": true,
+    "speechRate": 1,
+    "confidenceThreshold": 0.7,
+    "darkTheme": true
+  }
+}

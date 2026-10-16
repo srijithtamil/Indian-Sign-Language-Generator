@@ -1,0 +1,21 @@
+{
+  "name": "isl-translator-portal-mern",
+  "version": "1.0.0",
+  "description": "Indian Sign Language (ISL) Translator Web Portal with Deep Learning Gesture Recognition Engine",
+  "scripts": {
+    "engine": "python engine/app.py",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "start": "python run_all.py"
+  },
+  "keywords": [
+    "indian-sign-language",
+    "isl",
+    "gesture-recognition",
+    "deep-learning",
+    "mern",
+    "harshbg"
+  ],
+  "author": "",
+  "license": "MIT"
+}
